@@ -1,0 +1,134 @@
+/*********** SMARTPHONE **************/
+
+@media only screen and (max-width: 767px){
+
+#nav-holder li{
+	float: none;
+}
+
+#nav-holder li:last-child{
+	margin-bottom: 22px;
+}
+
+.sub li:last-child{
+	margin-bottom: 0px !important;
+}
+
+.sub{
+	margin-top: 11px !important;
+	margin-bottom: 11px !important;
+}
+
+#main-nav{
+	overflow: hidden;
+}
+
+.odd-tri-up, .odd-tri-down, .even-tri-up, .even-tri-down{
+	display: none;
+}
+
+.ft-work{
+	width: 80%;
+	margin: 0px auto;
+	margin-bottom: 22px;
+}
+
+#home-slider .btn{
+	display: none;
+}
+
+.hero-h1{
+	font-size: 66px;
+}
+
+#home-slider .slides li{
+	height: 450px;
+}
+
+.flexslider .slides img{
+	width: 170%;
+}
+
+.slides .row{
+	padding-top: 166px;
+}
+
+.filters{
+	padding: 10px;
+}
+
+.filters li{
+	margin-bottom: 11px;
+}
+
+.team-member span{
+	display: block;
+}
+
+#clients{
+	text-align: center;
+}
+
+#clients img{
+	width: 50%;
+	
+}
+
+.related-works{
+	text-align: center;
+}
+
+.related-works img{
+	max-width: 60%;
+	padding-bottom: 11px;
+}
+
+.blog-date h4{
+	font-size: 13px;
+}
+
+.blog-img-holder{
+	height: 190px;
+}
+
+.blog-pagination{
+	padding-left: 44px;
+	padding-right: 44px;
+	padding-bottom: 22px;
+}
+
+.blog-single-img{
+	height: 230px;
+}
+
+.author-img{
+	margin-bottom: 11px;
+}
+
+#footer span{
+	display: block;
+}
+
+#footer .btn{
+	margin-top: 30px;
+	display: inline-block;
+}
+
+
+}
+
+/******** PORTRAIT TABLET ************/
+
+
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) 
+and (orientation : portrait) {
+
+#nav-holder li{
+	width: 100px;
+}
+
+
+
+}
