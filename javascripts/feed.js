@@ -1,8 +1,8 @@
 $(document).ready(function () {
   // Dictionary of templates (these could otherwise be hidden in <script> tags)
   var templates = {
-    appView: '<h1>Recent Posts</h1><ul id="posts"></ul>',
-    blogList: '<a href="#posts/{{ slug }}">{{ title }}</a>',
+    appView: '<ul id="posts"></ul>',
+    blogList: '<a href="#/posts/{{ slug }}">{{title}}</a>',
     blogView: '<div class="post"><h1 class="title">{{ title }}</h1><h3 class="slug">{{ slug }}</h3><div class="content">{{{ content }}}</div></div>'
   };
 
@@ -35,6 +35,7 @@ $(document).ready(function () {
 
     // Stick this new list item in the page.
     render: function () {
+      console.log(this.model.toJSON());
       var template = Handlebars.compile( templates.blogList );
       this.$el.html( template(this.model.toJSON()) );
 
@@ -85,7 +86,7 @@ $(document).ready(function () {
     initialize: function (options) {
       this.options = options;
       // Lorem ipsum posts. Make these more interesting.
-        this.posts = New Posts ([
+        this.posts = new Posts ([
           new Post({title: 'DIGITAL STRATEGY', slug: 't1', content: 'Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.'}),
           new Post({title: 'BRAND IDENTITY', slug: 't2', content: 'Branding content'}),
           new Post({title: 'USER EXPERIENCE', slug: 't3', content: 'Mobile UX expert - Apps and Sites, Responsive solutions'}),
@@ -108,7 +109,7 @@ $(document).ready(function () {
 
   // Kick off.
   var app = new AppRouter();
-  Backbone.history.start();
+  Backbone.history.start({pushState: true});
 
   // Here is how to bind to changes in the URL.
   Backbone.history.on('route', function () {

@@ -11,17 +11,34 @@
 	<title>Yachts Multipurpose Template</title>
 
 
-	<link rel="stylesheet" href="stylesheets/foundation.css">
-	<link rel="stylesheet" href="stylesheets/animate.css">
-	<link rel="stylesheet" href="stylesheets/flexslider.css">
-	<link rel="stylesheet" href="stylesheets/entypo.css">
-	<link rel="stylesheet" href="stylesheets/style.css">
-	<link rel="stylesheet" href="stylesheets/responsive.css">
+	<link rel="stylesheet" type="text/css" href="stylesheets/foundation.css">
+	<link rel="stylesheet" type="text/css" href="stylesheets/animate.css">
+	<link rel="stylesheet" type="text/css" href="stylesheets/flexslider.css">
+	<link rel="stylesheet" type="text/css" href="stylesheets/entypo.css">
+	<link rel="stylesheet" type="text/css" href="stylesheets/style.css">
+	<link rel="stylesheet" type="text/css" href="stylesheets/responsive.css">
+	<link rel="stylesheet" type="text/css" href="stylesheets/paper.css" type="text/css">
+	<link rel="stylesheet" type="text/css" href="stylesheets/default.css" />
+	<link rel="stylesheet" type="text/css" href="stylesheets/component.css" />
+	<link rel="stylesheet" type="text/css" href="stylesheets/thumb_default.css" />
+	<link rel="stylesheet" type="text/css" href="stylesheets/thumb_component.css" />
+<!-- 	    <link rel="stylesheet" type="text/css" href="css/main.css"> -->
+
 	<link href='http://fonts.googleapis.com/css?family=GFS+Didot' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
-
 	<script src="javascripts/modernizr.foundation.js"></script>
+
+
+		<script src="js/modernizr.custom.js"></script>
+
+
+	<!-- 	WBvG === JS -->
+	  <script src="javascripts/jquery-1.10.2.min.js"></script>
+	  <script src="javascripts/underscore-min.js"></script>
+	  <script src="javascripts/backbone.js"></script>
+	  <script src="javascripts/handlebars.js"></script>
+
 </head>
 <body>
 <div id="main-container">
@@ -123,6 +140,53 @@
 
 </section>
 
+<!--
+======= THUMBNAILS ==== -->
+
+<div class="main">
+	<ul id="og-grid" class="og-grid">
+		<li>
+			<!-- Created by <a href="#">Mike Jarrell</a> and <a href="#">Willy Butt van Gelderen</a> -->
+			<a href="#" data-largesrc="images/wbvg_hatemate.jpg" data-title="Hatemate" data-description="An online dating site for hating online dating. <ul><li></li></ul>">
+
+
+				<img src="images/thumbs/wbvg_hatemate.jpg" alt="Hate Mate Beta"/>
+			</a>
+
+		</li>
+
+
+		<li>
+						<!-- <li>Created by <a href="#">Mike Jarrell</a> and <a href="#">Willy Butt van Gelderen</a></li> -->
+			<a href="#" data-largesrc="images/wbvg_geekii.jpg" data-title="Geekii" data-description="A social networking site for Designer to Developer relations." target="_new">
+				<img src="images/thumbs/wbvg_geekii.jpg" alt="Geekii"/>
+			</a>
+
+		</li>
+		<li>
+			<a href="#" data-largesrc="images/1.jpg" data-title="Azuki bean" data-description="Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.">
+				<img src="images/thumbs/1.jpg" alt="img01"/>
+			</a>
+		</li>
+		<li>
+			<a href="#" data-largesrc="images/2.jpg" data-title="Veggies sunt bona vobis" data-description="Komatsuna prairie turnip wattle seed artichoke mustard horseradish taro rutabaga ricebean carrot black-eyed pea turnip greens beetroot yarrow watercress kombu.">
+				<img src="images/thumbs/2.jpg" alt="img02"/>
+			</a>
+		</li>
+
+	</ul>
+
+			</div>
+
+			</div>
+
+</section>
+
+
+
+<!-- ======= THUMBNAILS ==== -->
+
+<!--
 <section id="work-container" class="animated fadeInUpBig">
 
 	<div class="row inner-section text-center">
@@ -211,7 +275,7 @@
 		</div>
 	</div>
 
-</section>
+</section> -->
 
 
 <section id="footer">
@@ -223,13 +287,25 @@
 
 
 </div><!-- end of Main Container -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+		<script src="js/grid.js"></script>
+		<script>
+			$(function() {
+				Grid.init();
+			});
+		</script>
+
 	<!-- Included JS Files (Compressed) -->
 	<script src="javascripts/foundation.min.js"></script>
 
 	<!-- Initialize JS Plugins -->
 	<script src="javascripts/jquery.flexslider-min.js"></script>
-	<script src="javascripts/isotope.min.js"></script>
 	<script src="javascripts/scripts.js"></script>
+	<script src="javascripts/toucheffects.js"></script>
+	<script src="js/modernizr.custom.js"></script>
+
+	<script src="javascripts/modernizr.custom.js"></script>
+	<script src="javascripts/feed.js"></script>
 
 
 </body>

@@ -68,8 +68,8 @@ p.lead { font-size: 17.5px; line-height: 1.6; margin-bottom: 17px; }
 aside p { font-size: 13px; line-height: 1.35; font-style: italic; }
 
 .alt-h{
-	font-family: 'only_you_sexy_bold';
-	font-weight: bold;
+  font-family: 'only_you_sexy_bold';
+  font-weight: bold;
       font-size: 50px;
 }
 
@@ -81,8 +81,8 @@ aside p { font-size: 13px; line-height: 1.35; font-style: italic; }
 
 
 
-h1, h2, h3, h4, h5, h6 { font-family: 'Montserrat',"Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; font-weight: bold; font-style: normal; color: #222222; text-rendering: optimizeLegibility; line-height: 1.1;  }
-h1 small, h2 small, h3 small, h4 small, h5 small, h6 small { font-size: 60%; color: #6f6f6f; line-height: 0; }
+h1, h2, h3, h4, h5, h6, h9 { font-family: 'Montserrat',"Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; font-weight: bold; font-style: normal; color: #222222; text-rendering: optimizeLegibility; line-height: 1.1;  }
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, h9 small { font-size: 60%; color: #6f6f6f; line-height: 0; }
 
 h1 { font-size: 28px; }
 
@@ -95,6 +95,11 @@ h4 { font-size: 22px; }
 h5 { font-size: 26px; }
 
 h6 { font-size: 14px; }
+
+.student {
+  font-size: 23px;
+  font-family: 'Montserrat',"Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif; font-weight: bold; font-style: normal; color: #fff; text-rendering: optimizeLegibility; line-height: 1.1;
+   }
 
 hr { border: solid #dddddd; border-width: 1px 0 0; clear: both; margin: 22px 0 21px; height: 0; }
 
@@ -171,14 +176,14 @@ form { margin: 0 0 19.41641px; }
 
 label {
 
-	font-size: 13px;
-	color: #4d4d4d;
-	cursor: pointer;
-	display: block;
-	font-weight: 500;
-	margin-bottom: 11px;
-	text-transform: uppercase;
-	letter-spacing: 3px;
+  font-size: 13px;
+  color: #4d4d4d;
+  cursor: pointer;
+  display: block;
+  font-weight: 500;
+  margin-bottom: 11px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
 
 }
 label.right { float: none; text-align: right; }
@@ -248,6 +253,7 @@ form.custom div.custom.dropdown ul li.selected:hover { background: #cdebf5; curs
 form.custom div.custom.dropdown ul li.selected:hover:after { color: black; }
 form.custom div.custom.dropdown ul.show { display: block; }
 form.custom .custom.disabled { background-color: #dddddd; }
+
 
 /* Correct FF custom dropdown height */
 @-moz-document url-prefix() { form.custom div.custom.dropdown a.selector { height: 28px; } }
@@ -508,10 +514,10 @@ that IE7/8 do not support :nth-child.
 @media only screen and (min-width: 1441px) { .hide-for-small, .hide-for-medium, .hide-for-medium-down, .hide-for-large, .show-for-large-up, .show-for-xlarge { display: inherit !important; }
   .show-for-small, .show-for-medium, .show-for-medium-down, .show-for-large, .hide-for-large-up, .hide-for-xlarge { display: none !important; } }
 /* Medium display targeting */
-@media only screen and (max-width: 1279px) and (min-width: 768px) { .hide-for-small, .show-for-medium, .show-for-medium-down, .hide-for-large, .hide-for-large-up, .hide-for-xlarge { display: inherit !important; }
+@media only screen and (max-width: 1279px) and (min-width: 692px) { .hide-for-small, .show-for-medium, .show-for-medium-down, .hide-for-large, .hide-for-large-up, .hide-for-xlarge { display: inherit !important; }
   .show-for-small, .hide-for-medium, .hide-for-medium-down, .show-for-large, .show-for-large-up, .show-for-xlarge { display: none !important; } }
 /* Small display targeting */
-@media only screen and (max-width: 767px) { .show-for-small, .hide-for-medium, .show-for-medium-down, .hide-for-large, .hide-for-large-up, .hide-for-xlarge { display: inherit !important; }
+@media only screen and (max-width: 691px) { .show-for-small, .hide-for-medium, .show-for-medium-down, .hide-for-large, .hide-for-large-up, .hide-for-xlarge { display: inherit !important; }
   .hide-for-small, .show-for-medium, .hide-for-medium-down, .show-for-large, .show-for-large-up, .show-for-xlarge { display: none !important; } }
 /* Orientation targeting */
 .show-for-landscape, .hide-for-portrait { display: inherit !important; }

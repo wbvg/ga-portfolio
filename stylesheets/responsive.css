@@ -1,26 +1,137 @@
 /*********** SMARTPHONE **************/
 
-@media only screen and (max-width: 767px){
+@media only screen and (max-width: 768px){
+
+/*  / WBVG CODE */
+
+.flex-direction-nav a {width: 50px; height: 50px; margin: -20px 0 0; display: block; background: url(images/bg_direction_nav.png) no-repeat 0 0; position: absolute; top: 50%; z-index: 10; cursor: pointer; text-indent: -9999px; opacity: 0; -webkit-transition: all .3s ease;}
+
+.btn{
+	padding: 10px;
+	border: 2px solid #fff;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 6px;
+	margin: 10px auto;
+	color: #fff;
+	font-size: 48px;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	transition: all .3s ease;
+	font-family: 'only_you_sexy_bold';
+}
+
+.brand {
+	height: 60px;
+	width: 120px;
+	display: block;
+	z-index: 20;
+
+}
+
+
+.home, .about, .portfolio, .blog, .contact {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 5px 0;
+	position: relative;
+	height: 40px;
+	display: block;
+
+}
+
+#nav-holder ul{
+	list-style: none;
+/*	margin-top: 10px;*/
+	padding-top: 10px;
+	overflow: hidden;
+	width: 100%;
+}
+
+
+a.about:hover {
+	color: #fff;
+	background-color: #44AAB9;
+	width:100%;
+	/*padding: 30px 60px 30px 10px;*/
+	margin: 4px 0;
+	padding-right: 100%;
+
+}
+
+a.contact:hover {
+	color: #fff;
+	background-color: #22131F;
+	width:100%;
+	/*padding: 30px 60px 30px 10px;*/
+	margin: 4px 0;
+	padding-right: 100%;
+
+}
+
+a.home:hover {
+	color: #fff;
+	background-color: #E13A2C;
+	width:100%;
+	/*padding: 30px 60px 30px 10px;*/
+	margin: 4px 0;
+	padding-right: 100%;
+
+}
+
+a.portfolio:hover {
+	color: #fff;
+	background-color: #EF50C5;
+	width:100%;
+	margin: 4px 0;
+	/*padding: 30px 40px 30px 10px;*/
+	padding-right: 100%;
+}
+
+a.blog:hover {
+	color: #fff;
+	background-color: #E13A2C;
+	width:100%;
+	margin: 4px 0;
+	padding-right: 100%;
+}
+
+a.main-menu {
+	height: 50px;
+	width: 100% !important;
+	margin-top: 10px;
+}
+
+#nav-holder {
+	/*height: 300px;*/
+}
+
 
 #nav-holder li{
 	float: none;
+	width: 100% !important;
 }
 
 #nav-holder li:last-child{
-	margin-bottom: 22px;
+	margin-bottom: 5px;
+	width: 100%;
 }
 
 .sub li:last-child{
 	margin-bottom: 0px !important;
 }
 
+
 .sub{
-	margin-top: 11px !important;
-	margin-bottom: 11px !important;
+	margin-top: 0px !important;
+	margin-bottom: 5px !important;
 }
 
 #main-nav{
 	overflow: hidden;
+/*	height: 60px;*/
+	width: 100%;
+/*	padding: 30px 60px 30px 10px;*/
 }
 
 .odd-tri-up, .odd-tri-down, .even-tri-up, .even-tri-down{
@@ -33,9 +144,14 @@
 	margin-bottom: 22px;
 }
 
-#home-slider .btn{
+
+/*  / WBVG CODE */
+
+
+
+/* #home-slider .btn{
 	display: none;
-}
+}*/
 
 .hero-h1{
 	font-size: 66px;
@@ -71,7 +187,7 @@
 
 #clients img{
 	width: 50%;
-	
+
 }
 
 .related-works{
@@ -120,14 +236,160 @@
 /******** PORTRAIT TABLET ************/
 
 
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
 and (orientation : portrait) {
 
 #nav-holder li{
 	width: 100px;
 }
+/*  / WBVG CODE */
+
+.flex-direction-nav a {width: 50px; height: 50px; margin: -20px 0 0; display: block; background: url(images/bg_direction_nav.png) no-repeat 0 0; position: absolute; top: 50%; z-index: 10; cursor: pointer; text-indent: -9999px; opacity: 0; -webkit-transition: all .3s ease;}
+
+.btn{
+	padding: 10px;
+	border: 2px solid #fff;
+	text-align: center;
+	cursor: pointer;
+	border-radius: 6px;
+	margin: 10px auto;
+	color: #fff;
+	font-size: 48px;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	transition: all .3s ease;
+	font-family: 'only_you_sexy_bold';
+}
+
+.brand {
+	height: 80px;
+	width: 140px;
+	display: block;
+	z-index: 20;
+
+}
+
+
+.home, .about, .portfolio, .blog, .contact {
+	width: 100%;
+	box-sizing: border-box;
+	padding: 5px 0;
+	position: relative;
+	height: 40px;
+	display: block;
+
+}
+
+#nav-holder ul{
+	list-style: none;
+/*	margin-top: 10px;*/
+	padding-top: 10px;
+	overflow: hidden;
+	width: 100%;
+}
+
+
+a.about:hover {
+	color: #fff;
+	background-color: #44AAB9;
+	width:100%;
+	/*padding: 30px 60px 30px 10px;*/
+	margin: 4px 0;
+	padding-right: 100%;
+
+}
+
+a.contact:hover {
+	color: #fff;
+	background-color: #22131F;
+	width:100%;
+	/*padding: 30px 60px 30px 10px;*/
+	margin: 4px 0;
+	padding-right: 100%;
+
+}
+
+a.home:hover {
+	color: #fff;
+	background-color: #E13A2C;
+	width:100%;
+	/*padding: 30px 60px 30px 10px;*/
+	margin: 4px 0;
+	padding-right: 100%;
+
+}
+
+a.portfolio:hover {
+	color: #fff;
+	background-color: #EF50C5;
+	width:100%;
+	margin: 4px 0;
+	/*padding: 30px 40px 30px 10px;*/
+	padding-right: 100%;
+}
+
+a.blog:hover {
+	color: #fff;
+	background-color: #E13A2C;
+	width:100%;
+	margin: 4px 0;
+	padding-right: 100%;
+}
+
+a.main-menu {
+	height: 50px;
+	width: 100% !important;
+	margin-top: 10px;
+}
+
+#nav-holder {
+	/*height: 300px;*/
+}
+
+
+#nav-holder li{
+	float: none;
+	width: 100% !important;
+}
+
+#nav-holder li:last-child{
+	margin-bottom: 5px;
+	width: 100%;
+}
+
+.sub li:last-child{
+	margin-bottom: 0px !important;
+}
+
+
+.sub{
+	margin-top: 0px !important;
+	margin-bottom: 5px !important;
+}
+
+#main-nav{
+	overflow: hidden;
+/*	height: 60px;*/
+	width: 100%;
+/*	padding: 30px 60px 30px 10px;*/
+}
+
+.odd-tri-up, .odd-tri-down, .even-tri-up, .even-tri-down{
+	display: none;
+}
+
+.ft-work{
+	width: 80%;
+	margin: 0px auto;
+	margin-bottom: 22px;
+}
+
+
+/*  / WBVG CODE */
+
+
 
 
 
