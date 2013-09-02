@@ -29,11 +29,13 @@
 	width: 100%;
 }
 
+#home-front {
+margin-top: 60px;
+}
 
-
-
-
-
+.topper {
+	margin-top: 180px;
+}
 
 input{
 	-webkit-appearance: none;
@@ -147,7 +149,7 @@ li {
 }
 
 .slides .row{
-	padding-top: 200px;
+	padding-top: 150px;
 	position: relative;
 	z-index: 2;
 }
@@ -192,8 +194,15 @@ li {
 
 .page-header{
 /*	background: url('http://placehold.it/1200x300');*/
-	padding-top: 41px;
-	background-color: #E13A2C;
+	padding-top: 90px;
+background: #3d001b; /* Old browsers */
+background: -moz-linear-gradient(45deg,  #3d001b 0%, #54013a 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#3d001b), color-stop(100%,#54013a)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(45deg,  #3d001b 0%,#54013a 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(45deg,  #3d001b 0%,#54013a 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(45deg,  #3d001b 0%,#54013a 100%); /* IE10+ */
+background: linear-gradient(45deg,  #3d001b 0%,#54013a 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3d001b', endColorstr='#54013a',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 
 }
 
@@ -203,7 +212,8 @@ li {
 }
 
 .page-preamble{
-	background-color: #A7DBD8;
+/*	background-color: #faf3e9;*/
+background-color: #fff;
 }
 
 .page-preamble h3{
@@ -363,6 +373,7 @@ a.main-menu {
 	transition: all .5s ease;
 	opacity: 0;
 	position: relative;
+	cursor: pointer;
 }
 
 .sub li{
@@ -394,7 +405,7 @@ a.sub-menu{
 }
 
 #nav-holder li:hover .sub{
-	max-height: 210px;
+	max-height: 700px;
 	opacity: 1;
 	border-radius: 6px;
 }
@@ -685,12 +696,12 @@ a.sub-menu{
 }
 
 .team-img-wrap{
-	height: 180px;
-	width: 180px;
+	height: 230px;
+	width: 230px;
 	overflow: hidden;
-	border-radius: 50%;
+	border-radius: 100%;
 	margin: 0px auto;
-	margin-bottom: 22px;
+/*	padding-top: 22px;*/
 
 }
 
